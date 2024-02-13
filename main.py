@@ -9,7 +9,7 @@
 # Liste zum Eintragen der Loesungen
 loesungen = []
 
-# Initalfunktion
+# Initialfunktion
 def startfunction():
 
     spielfeld = [
