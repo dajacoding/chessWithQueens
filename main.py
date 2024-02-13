@@ -159,9 +159,9 @@ def pruefungDopplung():
     print ('Anzahl der Dopplung (Nach Abschluss der RecursionSpielfeld()): ' + str(z))
 
 
-################################################    
-# Pruefung mittles gespiegelte/rotierte Muster #
-################################################
+##################################################    
+# Pruefung mittles gespiegelter/rotierter Muster #
+##################################################
 
 # Pruefen, ob alle 8 Muster, die durch Rotation und Spiegelung entstehen, bereits gefunden sind
 def rotationenUndSpiegelungPruefen():
@@ -184,7 +184,7 @@ def alleMoeglichenPositionen(spielfeld):
         temp.append(spiegelnVertikaleAchse(temp[i]))
     return temp
 
-# rotiert um 90 Grad
+# rotiert um 90 Grad (gegen den Uhrzeigersinn)
 def rotation(spielfeld):
     temp = []
     for i in range(8):
