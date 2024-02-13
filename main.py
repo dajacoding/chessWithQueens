@@ -126,7 +126,7 @@ def pruefungVerteiler(loesungSpielfeld):
     pruefungReihen(loesungSpielfeld)
     pruefungSpalten(loesungSpielfeld)
 
- # In einer Reihe darf eine Dame ('D') nur einmal vorkommen 
+ # In einer Reihe muss eine Dame ('D') einmal vorkommen 
 def pruefungReihen(loesungSpielfeld):
     for i in range(8):
         if len([x for x in loesungSpielfeld[i] if x == 'D']) == 1:
@@ -160,7 +160,7 @@ def pruefungDopplung():
                 print(i)
     print ('Anzahl der Dopplung (Nach Abschluss der RecursionSpielfeld()): ' + str(z))
 
-# Pruefen, ob alle 8 Muster, die durch Rotation und Spiegelung entstehen koenne bereits gefunden sind
+# Pruefen, ob alle 8 Muster, die durch Rotation und Spiegelung entstehen, bereits gefunden sind
 def rotationenUndSpiegelungPruefen():
     z = 0
     for l in loesungen:
