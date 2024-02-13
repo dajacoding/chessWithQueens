@@ -200,7 +200,7 @@ def spiegelnVertikaleAchse(spielfeld):
     for i in range(8):
         tempReihe = []
         for j in range(8):
-            tempReihe.append(spielfeld[i][ 7 - j])
+            tempReihe.append(spielfeld[i][7 - j])
         temp.append(tempReihe)
     return temp
 
