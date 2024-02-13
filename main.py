@@ -159,9 +159,9 @@ def pruefungDopplung():
     print ('Anzahl der Dopplung (Nach Abschluss der RecursionSpielfeld()): ' + str(z))
 
 
-############################################    
-# Pruefung auf gespiegelte/rotierte Muster #
-############################################
+################################################    
+# Pruefung mittles gespiegelte/rotierte Muster #
+################################################
 
 # Pruefen, ob alle 8 Muster, die durch Rotation und Spiegelung entstehen, bereits gefunden sind
 def rotationenUndSpiegelungPruefen():
@@ -171,7 +171,7 @@ def rotationenUndSpiegelungPruefen():
         for a in alleMoeglPos:
             if a not in loesungen:
                 z += 1
-    print('Anzahl der Dopplung (Entdeckt durch Rotation und Spiegelung): ' + str(z))
+    print('Anzahl der Nichtgefundenen (Entdeckt durch Rotation und Spiegelung): ' + str(z))
 
 # Verteiler fuer Rotation und Spiegelung
 def alleMoeglichenPositionen(spielfeld):
