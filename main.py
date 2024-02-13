@@ -105,15 +105,12 @@ def zeigeSpielfeld(spielfeld):
     print()
 
 
-
-
 ##################
 # Pruefungsblock #
 ##################
     
 # Einstieg in Pruefungsblock
 def pruefung():
-
     for n, l in enumerate(loesungen):
         print('Musterloesung Nr.' + str(n))
         pruefungVerteiler(l)
@@ -145,7 +142,8 @@ def pruefungSpalten(loesungSpielfeld):
         temp.append(tempReihe)
     print('Spalten:')
     pruefungReihen(temp)
-    
+
+
 ##################################    
 # Pruefung auf identische Muster #
 ##################################
@@ -159,6 +157,11 @@ def pruefungDopplung():
                 z += 1
                 print(i)
     print ('Anzahl der Dopplung (Nach Abschluss der RecursionSpielfeld()): ' + str(z))
+
+
+############################################    
+# Pruefung auf gespiegelte/rotierte Muster #
+############################################
 
 # Pruefen, ob alle 8 Muster, die durch Rotation und Spiegelung entstehen, bereits gefunden sind
 def rotationenUndSpiegelungPruefen():
