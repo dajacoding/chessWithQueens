@@ -2,7 +2,7 @@
 # einnehmen koennen, ohne sich gegenseitig schlagen zu koennen.
 
 # Aufgrund der Funktionen sollten alle Rotationen und Spiegelungen abgedeckt sein.
-# Hierfuer koennte noch eine Prueffunktion geschrieben werden.
+# Hierfuer gibt es dennoch Prueffunktionen.
 
 
 
