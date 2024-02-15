@@ -25,7 +25,7 @@ def filter():
                 z += 1
             else:
                 break
-        if z == 16:
+        if z == len(amp):
             loesungGefiltert.append(amp[0])
     print('Anzahl der Grundmuster: ' + str(len(loesungGefiltert)))
 
