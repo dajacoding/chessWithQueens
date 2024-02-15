@@ -8,4 +8,4 @@
     - 1 Grundmuster in 4 verschiedenen Rotationen/Spiegelungen
 - durch das Ergruenden der Grundmuster zeigt sich, dass in 'alleMoeglichenPositionen()' jede Positionierungs-Variante zu doppeln scheint
   - aus Performance-Gruenden koennte dort eine Optimierung, via Reduktion der Rotations- und Spiegelungsfunktionen, vorgenommen werden
-    - dies bedarf einer Analyse der konkreten Musterbildung im Detail
+    - dies bedarf einer Analyse der konkreten Musterbildung
