@@ -4,3 +4,5 @@
 - ergebnis:  92
 - erklaerungsversuch: rotationen oder spiegelungen, die ihr urspruengliches dasein beschreiben
   - in 'damen_puzzle/findeGrundmuster.py' wird diese Annahme bestaetigt: EINE 2fach-Rotation erzeugt das Grundmuster erneut
+    - 11 Grundmuster in 8 verschiedenen Rotationen/Spiegelungen UND
+    - 1 Grundmuster in 4 verschiedenen Rotationen/Spiegelungen
