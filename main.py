@@ -182,6 +182,7 @@ def alleMoeglichenPositionen(spielfeld):
     for i in range(4):
         temp.append(spiegelnHorizontaleAchse(temp[i]))
         temp.append(spiegelnVertikaleAchse(temp[i]))
+        temp.append(spiegelnHorizontaleAchse(spiegelnVertikaleAchse(temp[i])))
     return temp
 
 # rotiert um 90 Grad (gegen den Uhrzeigersinn)
