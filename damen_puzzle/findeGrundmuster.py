@@ -32,16 +32,16 @@ def filter():
 # alle 16 Varianten jedes der 12 Grundmuster auf Gleichheit pruefen
 def erzeugenSichSelbst():
     print('Alle symmetrischen Positionierungen:')
-    for lG in loesungGefiltert:
-        aMP = mainV10.alleMoeglichenPositionen(lG)
+    for lg in loesungGefiltert:
+        aMP = mainV10.alleMoeglichenPositionen(lg)
         z = 0
         for a in aMP:
-            if a == lG:
+            if a == lg:
                 z += 1
         # da sich, aufgrund der diversen Rotationen und Spiegelungen, immer eine Dopplung findet, 
         # braucht es mindestens eine weitere, um eine symmetrische Loesung zu finden => >2
         if z > 2:
-            mainV10.zeigeSpielfeld(lG)
+            mainV10.zeigeSpielfeld(lg)
 
 # Aufruf Initialfunktion
 startfunktion()
