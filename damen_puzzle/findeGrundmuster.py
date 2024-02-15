@@ -1,4 +1,4 @@
-# Ziel ist zu klaeren, warum das Ergebnis nicht durch 8, 12 oder 16 teilbar ist.
+# Ziel ist zu klaeren, warum das Ergebnis nicht durch 8 oder 16 teilbar ist.
 # Die Annahme: es muss mindestens eine symmetrische Loesung geben: Diese gilt es zu finden: 
 
 import copy
