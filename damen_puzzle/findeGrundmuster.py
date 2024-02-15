@@ -15,7 +15,7 @@ def startfunktion():
     filter()
     erzeugenSichSelbst()
 
-# aus den 92 moeglichen Positionierungen, jene herausfiltern, die die Grundmuster bilden
+# aus den 92 moeglichen Positionierungen jene herausfiltern, die die Grundmuster bilden
 def filter():    
     for lu in loesungUngefiltert:
         amp = mainV10.alleMoeglichenPositionen(lu)
